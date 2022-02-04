@@ -23,4 +23,4 @@ jobs:
           aws s3api create-bucket --bucket norifloritongabonga3 --region us-east-1
           aws s3 cp index1.html s3://norifloritongabonga3/index1.html   
           aws s3api put-object-acl --bucket norifloritongabonga3 --key index1.html --acl public-read
-          aws s3 website s3://norifloritongabonga3/ --index1.html-document index1.html
+          aws s3 website s3://norifloritongabonga3/ --index-document index1.html
