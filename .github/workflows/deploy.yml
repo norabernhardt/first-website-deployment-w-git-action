@@ -20,5 +20,5 @@ jobs:
         run: |
           echo Hey I startet a deployment        
           aws s3api list-buckets
-          aws s3 cp index1.html s3://norifloritongabonga1/index1.html   
-          aws s3api put-object-acl --bucket norifloritongabonga1 --key index1.html --acl public-read
+          aws s3 cp index1.html s3://norifloritongabonga2/index1.html   
+          aws s3api put-object-acl --bucket norifloritongabonga2 --key index1.html --acl public-read
